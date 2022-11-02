@@ -1,0 +1,66 @@
+/* Form Styling */
+.formBackground {
+  /* background-image: url('../src/Assets/assets/img/map-image.png'); */
+  /* background-color: #328f8a; */
+  background: #f3f6fb;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg, #328f8a, #08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.StudentForm {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+}
+.StudentForm label {
+  color: #ddd;
+  text-align: left;
+  display: block;
+}
+
+.StudentForm h2 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.StudentForm input {
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.checkBoxPad.radio-button,
+.checkBoxPad label {
+  font-size: large;
+  padding: 6px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.StudentForm .subButton {
+  background: #328013;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.StudentForm .resButton {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}

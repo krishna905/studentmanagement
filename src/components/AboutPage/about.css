@@ -1,0 +1,156 @@
+/* body {
+  background: linear-gradient(45deg, #328f8a, #08ac4b) no-repeat;
+  color: white;
+} */
+
+#btn {
+  background-color: #2aabe4 !important;
+  color: white !important;
+}
+
+#btn:hover {
+  background-color: #ffcd24 !important;
+  color: #33393d !important;
+}
+
+#feat_cont1 {
+  padding-top: 70px;
+  position: relative;
+  animation-name: fade-inl;
+  animation-duration: 2s;
+}
+
+@keyframes fade-inl {
+  0% {
+    opacity: 0;
+    left: -100px;
+    top: 0px;
+  }
+  50% {
+    opacity: 0.5;
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    opacity: 0.75;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#img-t {
+  margin-top: 70px;
+  position: relative;
+  animation-name: fade-inr;
+  animation-duration: 2s;
+  padding: 25px;
+  background-color: black;
+}
+
+@keyframes fade-inr {
+  0% {
+    opacity: 0;
+    left: 100px;
+    top: 0px;
+  }
+  50% {
+    opacity: 0.6;
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#myCarousel {
+  position: relative;
+  animation-name: fade-int;
+  animation-duration: 2s;
+}
+
+@keyframes fade-int {
+  0% {
+    opacity: 0;
+    left: 0px;
+    top: 100px;
+  }
+  50% {
+    opacity: 0.6;
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    opacity: 1;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.feat2-img {
+  width: 350px;
+  height: 250px;
+}
+
+.auto1 {
+  position: relative;
+}
+
+.img-des {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #0b172abf;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s, visibility 0.2s;
+  width: 352px;
+  height: 250px;
+  margin-left: 10px;
+}
+
+.desp {
+  margin: 10px !important;
+  padding: 10px !important;
+  width: 300px !important;
+  height: 250px !important;
+}
+
+.auto1:hover .img-des {
+  visibility: visible;
+  opacity: 1;
+}
+
+.desp {
+  transition: 0.2s;
+  transform: translateY(1em);
+}
+
+.auto1:hover .desp {
+  transform: translateY(0);
+}
+
+.feat2-head {
+  padding-bottom: 3 0px;
+}
+
+#p4:hover {
+  opacity: 1;
+  animation: flash 1.5s;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
